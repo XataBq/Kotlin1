@@ -18,9 +18,13 @@ fun main() {
 //    println(word3)
 //    println(word4)
 //    println()
+//    println(word1.hashCode())
+//    println(word2.hashCode())
+    fun Int.square() : Int = this * this
+    println(6.square())
 
-    println(word1.hashCode())
-    println(word2.hashCode())
+
+
 
 }
 
